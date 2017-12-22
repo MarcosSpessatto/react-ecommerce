@@ -1,0 +1,32 @@
+{
+  "coverageThreshold": {
+    "global": {
+      "branches": 50,
+      "functions": 50,
+      "lines": 50,
+      "statements": 50
+    }
+  },
+  "bail": true,
+  "verbose": true,
+  "automock": false,
+  "coverageReporters": [
+    "html",
+    "lcov"
+  ],
+  "coverageDirectory": "./coverage",
+  "clearMocks": true,
+  "moduleNameMapper": {
+    "\\.(css|scss|less|jpg|png|svg)$": "<rootDir>/test-utils/empty-module.js"
+  },
+  "setupFiles": ["raf/polyfill", "<rootDir>/jest.setup.js"],
+  "unmockedModulePathPatterns": [
+    "<rootDir>/node_modules/bootstrap"
+  ],
+  "coveragePathIgnorePatterns": [
+    "(.index)\\.(jsx|js)$",
+    "(.routes)\\.(jsx|js)$",
+    "/main/.*\\.(jsx|js)$"
+  ],
+  "testMatch": ["**/src/**/*.spec.js?(x)"]
+}

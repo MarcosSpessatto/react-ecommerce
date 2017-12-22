@@ -1,0 +1,16 @@
+{
+  "filters": [
+    {
+      "value": "price",
+      "text": "Filtrar por preço"
+    },
+    {
+      "value": "score",
+      "text": "Mais populares"
+    },
+    {
+      "value": "name",
+      "text": "Filtrar por ordem alfabética"
+    }
+  ]
+}

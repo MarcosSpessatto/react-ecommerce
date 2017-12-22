@@ -1,0 +1,12 @@
+@import '../../../sass/mixins';
+
+.cart-item-background {
+  height: 65px;
+  width: 55px;
+  border-radius: 5px;
+}
+
+.cart-item-image{
+  height: 55px;
+  @include padding(10px, 0, 0, 0);
+}

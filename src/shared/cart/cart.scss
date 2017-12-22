@@ -1,0 +1,24 @@
+@import '../../sass/mixins';
+@import '../../sass/variables';
+
+.remove-item{
+  @include margin(15px, 0, 0, 0);
+}
+
+.cart-item{
+  @include margin(10px, 0, 10px, 0);
+}
+
+.big-icon{
+  font-size: 100px !important;
+  @include color($background-card-game);
+}
+
+.empty-message{
+  @include padding(20px, 20px, 20px, 20px);
+  @include margin(20px, 0, 0, 0);
+}
+
+.box-empty-message{
+  @include margin(0, 10px, 50px, 0);
+}

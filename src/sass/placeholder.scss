@@ -1,0 +1,20 @@
+@import './variables.scss';
+
+%cursor-pointer{
+    cursor: pointer;
+}
+%font-color-white{
+    color: white !important;
+}
+%font-bold{
+    font-weight: bold !important;
+}
+%text-center{
+    text-align: center !important;
+}
+%float-right{
+    float: right;
+}
+%float-left{
+    float: left;
+}

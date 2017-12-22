@@ -1,0 +1,19 @@
+{
+    "presets": [
+        "es2015",
+        "react"
+    ],
+    "plugins": [
+        "transform-es2015-destructuring",
+        "transform-object-rest-spread",
+        "syntax-dynamic-import",
+        "transform-es2015-modules-commonjs"
+    ],
+    "env": {
+        "test": {
+            "plugins": [
+                "babel-plugin-dynamic-import-node"
+            ]
+        }
+    }
+}

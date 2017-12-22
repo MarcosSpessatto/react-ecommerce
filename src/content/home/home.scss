@@ -1,0 +1,9 @@
+@import '../../sass/mixins';
+
+.cards-margin {
+  @include margin(70px, 0, 0, 0);
+}
+
+.buy-button{
+  @include width(100%);
+}

@@ -1,0 +1,30 @@
+@import '../../sass/mixins';
+@import '../../sass/variables';
+@import '../../sass/placeholder';
+
+.img-size {
+  width: 130px !important;
+  padding: 10px;
+}
+
+.background-img-game {
+  @include background-color($background-card-game);
+  border-radius: 2px;
+}
+
+.no-border {
+  border: 0 !important;
+}
+
+.game-card{
+  min-height: 260px !important;
+}
+
+.game-card-price {
+  @include color($blue-price);
+  @extend %font-bold;
+}
+
+.cursor-pointer{
+  @extend %cursor-pointer;
+}
